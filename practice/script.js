@@ -1,35 +1,17 @@
+// // Step 1: Create the button
+// let button = document.createElement("button");
+// button.textContent = "Click me";
 
-let btn = document.querySelector("#btn")
-// let container = document.querySelector("#container")
+// // Step 2: Add a click event to change its content
+// button.addEventListener("click", function () {
+//   button.textContent = "You clicked!";
+// });
 
-// let content = document.createElement("div")
-// content.classList.add("content")
-// content.textContent = "This is gloriouas text-content!"
-// content.setAttribute("style", "background: pink; color: blue; padding: 10px; border: 2px solid black")
+// // Step 3: Append it to the body (or any container)
+// document.body.appendChild(button);
+let btn = document.querySelector("#btn");
 
-
-// let para = document.createElement("p")
-// para.classList.add("para")
-// para.textContent = "Hey I'm red!"
-
-// let div = document.createElement("div")
-
-
-
-btn.addEventListener("click", function() {
-  alert("Button was clicked!");
-});
-
-
-
-
-
-
-
-
-//  container.appendChild(para)
-//  container.appendChild(content)
-// container.appendChild(div)
-
-
-
+    btn.addEventListener("click", (e) => {
+      btn.textContent = "You clicked!";
+      e.target.style.backgound = "blue"
+    });
