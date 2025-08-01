@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+    font-family: poppins ;
+}
+body, html{
+    background-color: white;
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding: 25px;
+}
+nav ul li a{
+    color: rgb(0, 0, 0);
+    font: 1rem;;
+    text-decoration: none;
+    
+}
+
+nav ul li:hover{
+    font-size: 1.05rem;
+    color: rgb(106, 103, 103);
+    
+}
+.hero-section{
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+}
+    
+.leftSection{
+    /* background-color: red; */
+    width:35%;
+    margin-left: 120px;
+}
+.leftSection h1{
+    font-size: 3rem;
+    
+    
+}
+.rightSection{
+    /* background-color: red; */
+    border-radius: 50%;
+
+}
+
+.rightSection img{
+   height: 550px;
+    
+}
+/* CTA Buttons Container */
+.cta-buttons {
+    display: flex;
+    gap: 1rem;
+    /* justify-content: center; */
+    margin: 2rem 0;
+  }
+  
+  /* CTA Button Styling */
+  .cta-button {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    background-color: #000;
+    border-radius: 25px; /* Rounded corners */
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+  }
+  
+  /* Hover Effects */
+  .cta-button:hover {
+    background-color: #fff;
+    color: #000;
+    border-color: #000;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .cta-buttons {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .cta-button {
+      width: 80%;
+      text-align: center;
+    }
+  }
+
+  .about
+  {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 60px;
+  }
+  .leftabout img{
+    height: 500px;
+  }
+  .card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    /* background-color: #ecdede; */
+    
+  }
+  .card p{
+    text-align: justify;
+    font-weight: 500;
+
+
+  }
